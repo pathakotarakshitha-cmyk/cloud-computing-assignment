@@ -15,8 +15,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn WEB DEVELOPMENT add{process.env.REACT_APP_KEY_APPNAME}
         </a>
+        <h1>v~{process.env.REACT_APP_KEY_VERSION}</h1>
+        <h2>secret key~{process.env.REACT_APP_KEY_SECRETLY}</h2>
+        <h3>manage~{process.env.REACT_APP_KEY_MANAGE}</h3>
+        <h4>update~{process.env.REACT_APP_KEY_UPDATE}</h4>
       </header>
     </div>
   );
